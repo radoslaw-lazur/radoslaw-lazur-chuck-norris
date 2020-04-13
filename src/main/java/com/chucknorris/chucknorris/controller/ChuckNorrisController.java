@@ -21,4 +21,9 @@ public class ChuckNorrisController {
     public void sendJoke(@RequestBody EmailDto emailDto) {
         jokeService.createMail(emailDto.getEmail());
     }
+
+    @GetMapping(value = "/jokes")
+    public void sendJokeParam(@RequestParam String yourEmail) {
+        jokeService.createMail(yourEmail);
+    }
 }
