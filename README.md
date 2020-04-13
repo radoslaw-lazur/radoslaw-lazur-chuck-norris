@@ -14,5 +14,6 @@ Copy the link shown below and type your Email instead of "typeEmail" param in HT
 https://fierce-gorge-74902.herokuapp.com/v1/jokes?yourEmail=typeEmail
 
 As a result we can expect the email:
+
 ![](https://zapodaj.net/images/08ef393f7f235.png)
 
